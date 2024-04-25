@@ -2392,7 +2392,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             }
 
             .et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_widget {
-                width: 20.875%;
                 margin-right: 5.5%;
                 margin-bottom: 5.5%
             }
@@ -5040,6 +5039,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
             font-size: 22px;
             font-weight: 400
         }
+        .entry-content .et_pb_section_0 .et_pb_slider_container_inner .et_pb_slide_description{
+            background-image: url('./images/bg-img.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
         @media (min-width: 981px) and (max-width: 1100px) {
             .et_pb_column_1_2 .et_pb_slide_content, .et_pb_column_1_3 .et_pb_slide_content, .et_pb_column_1_4 .et_pb_slide_content, .et_pb_column_1_5 .et_pb_slide_content, .et_pb_column_1_6 .et_pb_slide_content, .et_pb_column_2_3 .et_pb_slide_content, .et_pb_column_2_5 .et_pb_slide_content, .et_pb_column_3_5 .et_pb_slide_content {
@@ -6355,7 +6359,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                         </div>
                                         <div class="et_pb_module et_pb_gallery et_pb_gallery_0  et_pb_bg_layout_light et_pb_gallery_grid">
                                             <div class="et_pb_gallery_items et_post_gallery clearfix"
-                                                 data-per_page="20">
+                                                 data-per_page="20" style="
+                                                                    display: flex;
+                                                                    flex-direction: column;
+                                                                    align-items: center;
+                                                                ">
                                                 <div class="et_pb_gallery_item et_pb_grid_item et_pb_bg_layout_light et_pb_gallery_item_0_0">
                                                 </div>
                                                 <div class="et_pb_gallery_item et_pb_grid_item et_pb_bg_layout_light et_pb_gallery_item_0_1">
