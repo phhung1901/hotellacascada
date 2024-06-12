@@ -5694,6 +5694,56 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     body, input, textarea, select {
         font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif
     }</style>
+    <style>
+        .article-item a{
+            text-decoration: underline;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            margin: 0px;
+            padding: 1rem;
+            width: 80%;
+            cursor: pointer;
+            background-color: black!important;
+        }
+
+        .dropdown > a {
+            display: inline-block;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .dropdown-content li {
+            display: block;
+            text-align: center;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a {
+            display: block;
+            padding: 10px 0;
+            text-decoration: none;
+            color: white;
+        }
+
+        .dropdown-content a:hover {
+            color: #ddaa44;
+        }
+
+        .list-articles{
+            margin: 20px 35px;
+            list-style: none;
+        }
+    </style>
     <link rel="preload" as="style" id="et-core-unified-deferred-43-cached-inline-styles"
           href="/wp-content/et-cache/43/et-core-unified-deferred-43.min.css"
           onload="this.onload=null;this.rel='stylesheet';"/>
@@ -5857,6 +5907,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                         <li id="menu-item-185"
                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185"><a
                                 href="#contacto">CONTÁCTENOS Y RESERVAS</a></li>
+                        <li id="menu-item-186"
+                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-185 dropdown"><a
+                                href="#contacto">PLACES</a>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Ha Noi</a></li>
+                                <li><a href="#">TP. Ho Chi Minh</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </nav>
 
@@ -6532,6 +6590,53 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
                             </div>
+
+                            <div style="text-align: center">
+                                <h2>Blog</h2>
+                                <ul class="list-articles" style="list-style: none; padding: 0">
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/tong-hop-11-quan-pho-tai-an-phu-dong-quan-12.p509">
+                                            Tổng hợp 11 quán phở tại An Phú Đông Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/danh-sach-16-quan-nhau-tai-an-phu-dong-quan-12.p508">
+                                            Danh sách 16 quán nhậu tại An Phú Đông Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/danh-sach-10-quan-cafe-san-vuon-tai-an-phu-dong-quan-12.p507">
+                                            Danh sách 10 quán cafe sân vườn tại An Phú Đông Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/danh-sach-12-quan-nuong-tai-binh-tri-dong-b-quan-binh-tan.p506">
+                                            Danh sách 12 quán nướng tại Bình Trị Đông B Quận Bình Tân
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/top-11-quan-nhau-tai-thanh-xuan-quan-12.p505">
+                                            Top 11 quán nhậu tại Thạnh Xuân Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/tong-hop-10-quan-an-vat-tai-thanh-loc-quan-12.p504">
+                                            Tổng hợp 10 quán ăn vặt tại Thạnh Lộc Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/tong-hop-10-quan-pho-tai-thanh-loc-quan-12.p503">
+                                            Tổng hợp 10 quán phở tại Thạnh Lộc Quận 12
+                                        </a>
+                                    </li>
+                                    <li class="article-item">
+                                        <a href="https://amthucbinhxuyen.com/post/tong-hop-13-quan-nhau-tai-thanh-loc-quan-12.p502">
+                                            Tổng hợp 13 quán nhậu tại Thạnh Lộc Quận 12
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
                             <div id="contacto"
                                  class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular">
 
